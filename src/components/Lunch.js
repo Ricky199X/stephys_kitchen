@@ -1,9 +1,10 @@
 import React from 'react'
+import lunch from '../assets/lunch.jpg'
 
 const Lunch = () => {
     return (
         <div className="lunch-menu">
-            <h1>This is Lunch</h1>
+            <img src={lunch} height='1000px' width='1300px' />
         </div>
     )
 }
