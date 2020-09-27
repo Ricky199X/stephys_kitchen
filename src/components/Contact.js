@@ -14,10 +14,6 @@ const Contact = () => {
                 <p>Beverly, MA 01915</p>
                 <p>(Corner of Beckford and Cabot)</p>
             </div>
-
-            <div className="footer">
-                <h4>This is a footer</h4>
-            </div>
         </div>
     )
 }
