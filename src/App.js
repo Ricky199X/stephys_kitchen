@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 
+// component imports 
+import Contact from './components/Contact'
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Contact />
     </div>
   );
 }
