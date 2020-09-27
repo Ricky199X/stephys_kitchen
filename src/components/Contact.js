@@ -1,10 +1,12 @@
 import React from 'react'
 
+import logo from '../assets/logo.jpg'
+
 const Contact = () => {
     return (
         <div className="container">
-            <div classname="contact-info">
-                <h1>Stephy's Kitchen</h1>
+            <div className="logo">
+                <img src={logo} height='400px' width='550px' />
             </div>
 
             <div className="address">
