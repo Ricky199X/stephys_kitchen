@@ -15,9 +15,12 @@ const Contact = () => {
 
             {/* Address Div */}
             <section className="box center">
-                <p>41 Beckford Street</p>
-                <p>Beverly, MA 01915</p>
-                <p>(Corner of Beckford and Cabot)</p>
+                <div className="contact-info">
+                    <p>41 Beckford Street</p>
+                    <p>Beverly, MA 01915</p>
+                    <p>(Corner of Beckford and Cabot)</p>
+                </div>
+
             </section>
         </div>
     )

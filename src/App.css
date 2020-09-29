@@ -49,6 +49,7 @@ p {
   border: 1px solid;
   width: 400px;
   height: 200px;
+  display: contents;
 }
 
 .page-container {
@@ -57,4 +58,8 @@ p {
 
 .section.box {
   align-self: center;
+}
+
+img {
+  display: inline-flex
 }
