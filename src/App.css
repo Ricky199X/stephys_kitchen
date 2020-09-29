@@ -46,7 +46,6 @@ p {
 .box {
   margin: 30px;
   padding: 30px;
-  border: 1px solid;
   width: 400px;
   height: 200px;
   display: contents;
@@ -56,10 +55,10 @@ p {
   padding: 40px;
 }
 
-.section.box {
-  align-self: center;
-}
-
 img {
   display: inline-flex
+}
+
+.section-social .fa-4x {
+  margin: 5px 10px;
 }

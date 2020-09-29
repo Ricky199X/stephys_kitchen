@@ -1,29 +1,38 @@
 import React from 'react'
 
 import logo from '../assets/logo.jpg'
+import SocialMedia from './SocialMedia'
 
-const Contact = () => {
-    return (
-        <div className="page-container">
+class Contact extends React.Component {
 
-            {/* Contact Page Logo */}
-            <section className="contact-page-logo center">
-                <div className="logo">
-                    <img src={logo} height='400px' width='550px' />
-                </div>
-            </section>
+    render() {
 
-            {/* Address Div */}
-            <section className="box center">
-                <div className="contact-info">
-                    <p>41 Beckford Street</p>
-                    <p>Beverly, MA 01915</p>
-                    <p>(Corner of Beckford and Cabot)</p>
-                </div>
+        return (
+            <div className="page-container">
 
-            </section>
-        </div>
-    )
+                {/* Contact Page Logo */}
+                <section className="contact-page-logo center">
+                    <div className="logo">
+                        <img src={logo} height='400px' width='550px' />
+                    </div>
+                </section>
+
+                {/* Address Div */}
+                <section className="box center">
+                    <div className="contact-info">
+                        <p>41 Beckford Street</p>
+                        <p>Beverly, MA 01915</p>
+                        <p>(Corner of Beckford and Cabot)</p>
+                    </div>
+                </section>
+
+                {/* Social Media Section */}
+                <section className="social center">
+                    <SocialMedia />
+                </section>
+            </div>
+        )
+    }
 }
 
 export default Contact
