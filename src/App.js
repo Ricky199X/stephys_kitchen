@@ -9,6 +9,7 @@ import Navigation from './components/Navigation'
 import Breakfast from './components/Breakfast'
 import Lunch from './components/Lunch'
 import Footer from './components/Footer'
+import About from './components/About'
 
 
 function App() {
