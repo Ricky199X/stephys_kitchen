@@ -37,7 +37,7 @@
   }
 }
 
-p {
+p.address {
   font-size: 24px;
   line-height: .5em;
   text-align: center;
@@ -53,7 +53,7 @@ p {
 
 .page-container {
   padding: 40px;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 img {
@@ -62,4 +62,13 @@ img {
 
 .section-social .fa-4x {
   margin: 5px 10px;
+}
+
+.about-content {
+  padding: 30px;
+  height: 75%;
+  font-size: 24px;
+  line-height: 2.5rem;
+  text-align: ".";
+  background-color: whitesmoke;
 }

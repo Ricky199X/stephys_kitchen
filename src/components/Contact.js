@@ -21,9 +21,9 @@ class Contact extends React.Component {
                 {/* Address Div */}
                 <section className="box center">
                     <div className="contact-info">
-                        <p>41 Beckford Street</p>
-                        <p>Beverly, MA 01915</p>
-                        <p>(Corner of Beckford and Cabot)</p>
+                        <p className="address">41 Beckford Street</p>
+                        <p className="address">Beverly, MA 01915</p>
+                        <p className="address">(Corner of Beckford and Cabot)</p>
                     </div>
                 </section>
 
@@ -31,11 +31,9 @@ class Contact extends React.Component {
                 <section className="about-blurb center">
                     <div class="row">
                         <div class="col s12">
-                            <div class="card horizontal large grey darken-1">
-                                <div class="card-content white-text">
-                                    <About />
-                                </div>
-                            </div>
+
+                            <About />
+
                         </div>
                     </div>
                 </section>
