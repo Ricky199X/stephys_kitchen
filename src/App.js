@@ -15,15 +15,14 @@ import About from './components/About'
 function App() {
   return (
     <Router>
-      <div>
-        <Navigation />
+      <Navigation />
+      <div className="page-container">
         <Switch>
           <Route exact path='/' component={Contact} />
           <Route exact path='/breakfast' component={Breakfast} />
           <Route exact path='/lunch' component={Lunch} />
         </Switch>
       </div>
-
       <Footer />
     </Router>
   );

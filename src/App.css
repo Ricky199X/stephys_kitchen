@@ -60,8 +60,22 @@ p.address {
   background-color: white;
 }
 
-img {
-  display: inline-flex
+/* img {
+  /* display: inline-flex */
+  /* object-fit: contain
+
+} */ 
+
+img.lunch {
+  object-fit: fill;
+}
+
+img.breakfast {
+  object-fit: fill;
+}
+
+menu {
+  padding-top: 50px
 }
 
 .section-social .fa-4x {
@@ -76,3 +90,7 @@ img {
   text-align: ".";
   background-color: whitesmoke;
 }
+
+/* .nav-wrapper {
+  padding-right: 75px
+} */

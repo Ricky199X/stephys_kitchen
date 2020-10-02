@@ -31,9 +31,7 @@ class Contact extends React.Component {
                 <section className="about-blurb center">
                     <div class="row">
                         <div class="col s12">
-
                             <About />
-
                         </div>
                     </div>
                 </section>
