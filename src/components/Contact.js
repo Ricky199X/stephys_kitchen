@@ -9,8 +9,7 @@ class Contact extends React.Component {
     render() {
 
         return (
-            <div className="page-container">
-
+            <div className="container">
                 {/* Contact Page Logo */}
                 <section className="contact-page-logo center">
                     <div className="logo">

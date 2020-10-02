@@ -56,7 +56,6 @@ p.address {
   padding-bottom: 20px;
   padding-right: 60px;
   padding-left: 60px;
-  width: 100%;
   background-color: white;
 }
 
@@ -75,7 +74,8 @@ img.breakfast {
 }
 
 menu {
-  padding-top: 50px
+  padding-top: 50px;
+  background-color: red
 }
 
 .section-social .fa-4x {
@@ -94,3 +94,34 @@ menu {
 /* .nav-wrapper {
   padding-right: 75px
 } */
+
+/* Sticky Footer */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.page-footer{
+  background-color: red;
+  padding: 20px;
+  padding-bottom: 2.5px;
+  text-align: center;
+  vertical-align: text-bottom;
+  justify-content: normal;
+  font-size: 14px;
+}
+
+.footer-right {
+  background-color: royalblue;
+
+}
+
+.footer-left {
+  background-color: seagreen;
+
+}
