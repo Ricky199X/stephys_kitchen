@@ -13,9 +13,8 @@ const Footer = () => {
                 <div className="footer-left col s6">
                     <h5>Stephy's Kitchen &copy; {fullYear}</h5>
                 </div>
-                <div className="footer-right col s6">
-                    <i class="fas fa-phone-square-alt fa-4x left"></i>
-                    <h5 className="left">978-921-6393</h5>
+                <div className="footer-right col s6 ">
+                    <h5>Phone: 978-921-6393</h5>
                 </div>
             </div>
 

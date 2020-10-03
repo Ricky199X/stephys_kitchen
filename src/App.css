@@ -107,7 +107,7 @@ main {
 }
 
 .page-footer{
-  background-color: red;
+  background-color: #1a237e;
   padding: 20px;
   padding-bottom: 2.5px;
   text-align: center;
@@ -116,12 +116,12 @@ main {
   font-size: 14px;
 }
 
-.footer-right {
-  background-color: royalblue;
+/* .footer-right {
+  background-color: #ecedf3;
 
 }
 
 .footer-left {
-  background-color: seagreen;
+  background-color: #999dc4;
 
-}
+} */
