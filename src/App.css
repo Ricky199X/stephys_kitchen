@@ -91,10 +91,6 @@ menu {
   background-color: whitesmoke;
 }
 
-/* .nav-wrapper {
-  padding-right: 75px
-} */
-
 /* Sticky Footer */
 body {
   display: flex;
@@ -125,3 +121,37 @@ main {
   background-color: #999dc4;
 
 } */
+
+nav {
+  background-color: #1a237e;
+}
+
+.nav-wrapper {
+  padding-right: 75px
+}
+
+.span {
+  margin-right: 80px;
+}
+
+.text-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+p.lead-text-center {
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+span {
+  margin-right: 60px;
+}
+
+i {
+  margin-right: 10px;
+}
