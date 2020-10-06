@@ -9,13 +9,13 @@ const SocialMedia = () => {
                     <div class="row">
                         <div class="col s12">
                             <h4>Check us out on Social Media!</h4>
-                            <a href="https://www.facebook.com/StephysKitchen/" class="black-text">
+                            <a class="social-link" href="https://www.facebook.com/StephysKitchen/">
                                 <i class="fab fa-facebook fa-4x"></i>
                             </a>
-                            <a href="https://www.yelp.com/biz/stephys-kitchen-beverly" class="black-text">
+                            <a class="social-link" href="https://www.yelp.com/biz/stephys-kitchen-beverly" >
                                 <i class="fab fa-yelp fa-4x"></i>
                             </a>
-                            <a href="https://www.tripadvisor.com/Restaurant_Review-g41463-d586850-Reviews-Stephy_s_Kitchen-Beverly_Massachusetts.html" class="black-text">
+                            <a class="social-link" href="https://www.tripadvisor.com/Restaurant_Review-g41463-d586850-Reviews-Stephy_s_Kitchen-Beverly_Massachusetts.html" >
                                 <i class="fab fa-tripadvisor fa-4x"></i>
                             </a>
                         </div>

@@ -159,3 +159,15 @@ span {
 i {
   margin-right: 10px;
 }
+
+.contact-info {
+  padding: 20px;
+  height: 100%;
+  font-size: 24px;
+  line-height: 2.5rem;
+} 
+
+a.social-link {
+  margin: 20px;
+  color: black
+}

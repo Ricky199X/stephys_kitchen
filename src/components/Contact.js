@@ -36,7 +36,6 @@ class Contact extends React.Component {
                 {/* Address Div */}
                 <section className="box center">
                     <div className="contact-info">
-                        <p className="address">Phone: 978-921-6393</p>
                         <p className="address">41 Beckford Street</p>
                         <p className="address">Beverly, MA 01915</p>
                         <p className="address">(Corner of Beckford and Cabot)</p>
