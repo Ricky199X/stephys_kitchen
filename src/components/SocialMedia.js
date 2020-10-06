@@ -6,7 +6,7 @@ const SocialMedia = () => {
             {/* Social Media */}
             <section class="section section-social center">
                 <div class="container">
-                    <div class="row">
+                    <div class="row social">
                         <div class="col s12">
                             <h4>Check us out on Social Media!</h4>
                             <a class="social-link" href="https://www.facebook.com/StephysKitchen/">

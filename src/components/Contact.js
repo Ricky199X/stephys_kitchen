@@ -10,8 +10,7 @@ class Contact extends React.Component {
 
         return (
             <div className="container">
-
-                <section className="contact-widgets">
+                <section className="contact-widgets center z-depth-1">
                     <div class="text-center" >
                         <p class="lead-text-center">
                             <span>
@@ -27,23 +26,23 @@ class Contact extends React.Component {
                 </section>
 
                 {/* Contact Page Logo */}
-                <section className="contact-page-logo center">
+                <section className="contact-page-logo center z-depth-1">
                     <div className="logo">
                         <img src={logo} height='400px' width='550px' />
                     </div>
                 </section>
 
                 {/* Address Div */}
-                <section className="box center">
-                    <div className="contact-info">
-                        <p className="address">41 Beckford Street</p>
-                        <p className="address">Beverly, MA 01915</p>
-                        <p className="address">(Corner of Beckford and Cabot)</p>
-                    </div>
+                {/* <section className="box center " > */}
+                <section className="contact-info z-depth-1">
+                    <p className="address">41 Beckford Street</p>
+                    <p className="address">Beverly, MA 01915</p>
+                    <p className="address">(Corner of Beckford and Cabot)</p>
                 </section>
+                {/* </section> */}
 
                 {/* About Blurb */}
-                <section className="about-blurb center">
+                <section className="about-blurb center z-depth-1">
                     <div class="row">
                         <div class="col s12">
                             <About />
@@ -52,7 +51,7 @@ class Contact extends React.Component {
                 </section>
 
                 {/* Social Media Section */}
-                <section className="social center">
+                <section className="social center z-depth-1">
                     <SocialMedia />
                 </section>
             </div>

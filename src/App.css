@@ -43,14 +43,6 @@ p.address {
   text-align: center;
 }
 
-.box {
-  margin: 30px;
-  padding: 30px;
-  width: 400px;
-  height: 200px;
-  display: contents;
-}
-
 .page-container {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -82,13 +74,10 @@ menu {
   background-color: red
 }
 
-.section-social .fa-4x {
-  margin: 5px 10px;
-}
-
 .about-content {
-  padding: 30px;
+  padding: 50px;
   height: 75%;
+  width: 100%;
   font-size: 24px;
   line-height: 2.5rem;
   text-align: ".";
@@ -160,14 +149,47 @@ i {
   margin-right: 10px;
 }
 
-.contact-info {
-  padding: 20px;
-  height: 100%;
-  font-size: 24px;
-  line-height: 2.5rem;
-} 
+.col.s12 {
+  width: 100%;
+  margin-left: auto;
+  left: auto;
+  right: auto;
+}
 
 a.social-link {
   margin: 20px;
-  color: black
+  color: black;
+}
+
+/* Contact Widgets */
+section.contact-widgets {
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+/* Home Page Logo */
+section.contact-page-logo {
+  background-color: white;
+}
+
+/* Home Page Address Info */
+section.contact-info {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  font-size: 24px;
+  line-height: 2.5rem;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+  margin-top: 20px
+} 
+
+/* About Blurb */
+section.about-blurb {
+  background-color: whitesmoke;
+}
+
+/* Social Media Section */
+section.social {
+  background-color: whitesmoke;
 }
